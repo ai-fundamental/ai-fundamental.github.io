@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://ai-fundamental.github.io/"/>
-  <updated>2017-09-28T09:52:16.230Z</updated>
+  <updated>2017-10-10T06:45:12.449Z</updated>
   <id>https://ai-fundamental.github.io/</id>
   
   <author>
@@ -17,17 +17,17 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Search_sumup</title>
-    <link href="https://ai-fundamental.github.io/2017/Search_sumup/"/>
-    <id>https://ai-fundamental.github.io/2017/Search_sumup/</id>
-    <published>2017-09-29T01:50:00.000Z</published>
-    <updated>2017-09-28T09:52:16.230Z</updated>
+    <title>The knowledge graph of the first course part Search</title>
+    <link href="https://ai-fundamental.github.io/2017/The%20knowledge%20graph%20of%20the%20first%20course%20part%20Search/"/>
+    <id>https://ai-fundamental.github.io/2017/The knowledge graph of the first course part Search/</id>
+    <published>2017-09-28T08:00:00.000Z</published>
+    <updated>2017-10-10T06:45:12.449Z</updated>
     
-    <content type="html"><![CDATA[<p>在搜索的课程学习告一段落后，对搜索这一章做出了总结。</p><a id="more"></a><p><a href="/assets/Search_170928.svg"><img src="/assets/Search_170928.svg" alt="TestSVG"></a></p>]]></content>
+    <content type="html"><![CDATA[<p>click <a href="/assets/Search_170928.svg">here</a> for viewing the knowledge graph.</p><a id="more"></a><p><a href="/assets/Search_170928.svg"><img src="/assets/Search.km.svg" alt="TestSVG"></a></p>]]></content>
     
     <summary type="html">
     
-      &lt;p&gt;在搜索的课程学习告一段落后，对搜索这一章做出了总结。&lt;/p&gt;
+      &lt;p&gt;click &lt;a href=&quot;/assets/Search_170928.svg&quot;&gt;here&lt;/a&gt; for viewing the knowledge graph.&lt;/p&gt;
     
     </summary>
     
@@ -35,20 +35,87 @@
   </entry>
   
   <entry>
-    <title>Hello World</title>
-    <link href="https://ai-fundamental.github.io/2017/hello-world/"/>
-    <id>https://ai-fundamental.github.io/2017/hello-world/</id>
-    <published>2017-01-01T08:00:00.000Z</published>
-    <updated>2017-09-28T09:49:57.834Z</updated>
+    <title>Homework 3 on Search</title>
+    <link href="https://ai-fundamental.github.io/2017/Homework%203%20on%20Search/"/>
+    <id>https://ai-fundamental.github.io/2017/Homework 3 on Search/</id>
+    <published>2017-09-16T08:00:00.000Z</published>
+    <updated>2017-10-10T06:34:48.977Z</updated>
     
-    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>]]></content>
+    <content type="html"><![CDATA[<p>We provide a formal proof on the correctness of NegaScout, which cannot be found in other places of Web.</p><p>We also find that we can also perform the scout step even for the first child of a node. It means that the constraint on the “first action” (see Line 6 of the algorithm in the <a href="/assets/2015K8009929046_王荣庆_04.pdf">pdf</a>) is <strong>NOT</strong> necessary. It is only necessary when α=-inf.</p><p>Please check the following <a href="/assets/2015K8009929046_王荣庆_04.pdf">pdf</a>.<br>(Thanks to Rongqing Wang.)</p>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
+        &lt;p&gt;We provide a formal proof on the correctness of NegaScout, which cannot be found in other places of Web.&lt;/p&gt;
+&lt;p&gt;We also find that we can 
       
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Homework 2 on Search</title>
+    <link href="https://ai-fundamental.github.io/2017/Homework%202%20on%20Search/"/>
+    <id>https://ai-fundamental.github.io/2017/Homework 2 on Search/</id>
+    <published>2017-09-13T08:00:00.000Z</published>
+    <updated>2017-10-10T06:02:57.176Z</updated>
+    
+    <content type="html"><![CDATA[<p>We provide a formal proof on the following properties<br>    If a heuristic is consistent, it must be admissible. We also give an example heuristic which is admissible, but not consistent.<br>    A<em> of graph search is <strong>NOT</strong> optimal with <em>*admissible heuristic</em></em>.</p><p>For the second property, the course book only says that “A<em> of graph search is optimal with <em>*consistent heuristic</em></em>”. Some students are wondering whether the conclusion that   </p><p>$$ A* of graph search is optimal with admissible heuristic $$</p><p>is true or not (see the <a href="https://cs.stackexchange.com/questions/23351/optimality-of-a?rq=1" target="_blank" rel="external">page</a>). Here, we show this conclusion is wrong. The key point is that the frontier set in graph search include both the visited and unvisited nodes.</p><p>Please check the following <a href="/assets/main.pdf">pdf</a>.<br>(Thanks to Xingcheng Ruan.)</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;We provide a formal proof on the following properties&lt;br&gt;    If a heuristic is consistent, it must be admissible. We also give an exampl
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Homework 1 on Search</title>
+    <link href="https://ai-fundamental.github.io/2017/Homework%201%20on%20Search/"/>
+    <id>https://ai-fundamental.github.io/2017/Homework 1 on Search/</id>
+    <published>2017-09-09T08:00:00.000Z</published>
+    <updated>2017-10-10T05:47:33.564Z</updated>
+    
+    <content type="html"><![CDATA[<p>We provide a formal proof on<br>    The graph separation property in graph search<br>    The optimality on uniform-cost search</p><p>Please check the following <a href="/assets/2015K8009929017_朱钦霖_01.pdf">pdf</a>.<br>(Thanks to Qinlin Zhu.)</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;We provide a formal proof on&lt;br&gt;    The graph separation property in graph search&lt;br&gt;    The optimality on uniform-cost search&lt;/p&gt;
+&lt;p&gt;P
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Welcome to AI Fundamental course at UCAS</title>
+    <link href="https://ai-fundamental.github.io/2017/Welcome%20to%20AI%20Fundamental%20course%20at%20UCAS/"/>
+    <id>https://ai-fundamental.github.io/2017/Welcome to AI Fundamental course at UCAS/</id>
+    <published>2017-09-01T08:00:00.000Z</published>
+    <updated>2017-10-10T05:41:16.953Z</updated>
+    
+    <content type="html"><![CDATA[<p>Welcome to AI Fundamental course at <a href="http://www.ucas.ac.cn/" target="_blank" rel="external">UCAS</a></p><p>Thank you for your interest in our materials developed for AI Fundamental course (2017) at University of Chinese Academy of Sciences. At this web site, you will find the following:</p><ul><li>Some lecture slides (mainly for the third part of this course)</li><li>Detailed analysis on some key questions, which are not well addressed in the course book. These questions are usually used as the homework for the students in the course.</li></ul><a id="more"></a><p>The whole course includes the following three parts:<br>Part 1: Search<br>Part 2: Knowledge<br>Part 3: Learning</p><p>The materials for the first two parts are mainly based on <a href="http://aima.cs.berkeley.edu/" target="_blank" rel="external">AIMA</a> (CS 188 at Berkeley) and the <a href="https://www.coursera.org/learn/rengong-zhineng" target="_blank" rel="external">AI course at Taiwan University</a>. The materials for the last part are mainly developed by the instructor himself.</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Welcome to AI Fundamental course at &lt;a href=&quot;http://www.ucas.ac.cn/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;UCAS&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Thank you for your interest in our materials developed for AI Fundamental course (2017) at University of Chinese Academy of Sciences. At this web site, you will find the following:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Some lecture slides (mainly for the third part of this course)&lt;/li&gt;
+&lt;li&gt;Detailed analysis on some key questions, which are not well addressed in the course book. These questions are usually used as the homework for the students in the course.&lt;/li&gt;
+&lt;/ul&gt;
     
     </summary>
     
