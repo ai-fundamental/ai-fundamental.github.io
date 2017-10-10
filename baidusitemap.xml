@@ -4,13 +4,15 @@
 
     
   <url>
-    <loc>https://ai-fundamental.github.io/2017/The%20knowledge%20graph%20of%20the%20first%20course%20part%20Search/</loc>
-    <lastmod>2017-10-10T06:45:12.449Z</lastmod>
+    <loc>https://ai-fundamental.github.io/2017/Homework%202%20on%20Search/</loc>
+    <lastmod>2017-10-10T07:43:07.957Z</lastmod>
     <data>
         <display>
-        <title>The knowledge graph of the first course part Search</title>
-        <pubTime>2017-09-28T08:00:00.000Z</pubTime>
+        <title>Homework 2 on Search</title>
+        <pubTime>2017-09-13T08:00:00.000Z</pubTime>
         
+        <tag>homework</tag>
+         
          
            
         </display>
@@ -20,42 +22,14 @@
     
   <url>
     <loc>https://ai-fundamental.github.io/2017/Homework%203%20on%20Search/</loc>
-    <lastmod>2017-10-10T06:34:48.977Z</lastmod>
+    <lastmod>2017-10-10T07:41:04.516Z</lastmod>
     <data>
         <display>
         <title>Homework 3 on Search</title>
         <pubTime>2017-09-16T08:00:00.000Z</pubTime>
         
+        <tag>homework</tag>
          
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://ai-fundamental.github.io/2017/Homework%202%20on%20Search/</loc>
-    <lastmod>2017-10-10T06:02:57.176Z</lastmod>
-    <data>
-        <display>
-        <title>Homework 2 on Search</title>
-        <pubTime>2017-09-13T08:00:00.000Z</pubTime>
-        
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://ai-fundamental.github.io/2017/Homework%201%20on%20Search/</loc>
-    <lastmod>2017-10-10T05:47:33.564Z</lastmod>
-    <data>
-        <display>
-        <title>Homework 1 on Search</title>
-        <pubTime>2017-09-09T08:00:00.000Z</pubTime>
-        
          
            
         </display>
@@ -65,7 +39,7 @@
     
   <url>
     <loc>https://ai-fundamental.github.io/2017/Welcome%20to%20AI%20Fundamental%20course%20at%20UCAS/</loc>
-    <lastmod>2017-10-10T05:41:16.953Z</lastmod>
+    <lastmod>2017-10-10T07:38:14.875Z</lastmod>
     <data>
         <display>
         <title>Welcome to AI Fundamental course at UCAS</title>
@@ -77,4 +51,40 @@
     </data>
     </url>
 
+    
+  <url>
+    <loc>https://ai-fundamental.github.io/2017/Homework%201%20on%20Search/</loc>
+    <lastmod>2017-10-10T07:37:52.397Z</lastmod>
+    <data>
+        <display>
+        <title>Homework 1 on Search</title>
+        <pubTime>2017-09-09T08:00:00.000Z</pubTime>
+        
+        <tag>homework</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://ai-fundamental.github.io/2017/The%20knowledge%20graph%20of%20the%20first%20course%20part%20Search/</loc>
+    <lastmod>2017-10-10T07:37:37.663Z</lastmod>
+    <data>
+        <display>
+        <title>The knowledge graph of the first course part: Search</title>
+        <pubTime>2017-09-28T08:00:00.000Z</pubTime>
+        
+        <tag>knowledge graph</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+    
 </urlset>

@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://ai-fundamental.github.io/"/>
-  <updated>2017-10-10T06:45:12.449Z</updated>
+  <updated>2017-10-10T07:37:37.663Z</updated>
   <id>https://ai-fundamental.github.io/</id>
   
   <author>
@@ -17,20 +17,25 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>The knowledge graph of the first course part Search</title>
+    <title>The knowledge graph of the first course part: Search</title>
     <link href="https://ai-fundamental.github.io/2017/The%20knowledge%20graph%20of%20the%20first%20course%20part%20Search/"/>
     <id>https://ai-fundamental.github.io/2017/The knowledge graph of the first course part Search/</id>
     <published>2017-09-28T08:00:00.000Z</published>
-    <updated>2017-10-10T06:45:12.449Z</updated>
+    <updated>2017-10-10T07:37:37.663Z</updated>
     
-    <content type="html"><![CDATA[<p>click <a href="/assets/Search_170928.svg">here</a> for viewing the knowledge graph.</p><a id="more"></a><p><a href="/assets/Search_170928.svg"><img src="/assets/Search.km.svg" alt="TestSVG"></a></p>]]></content>
+    <content type="html"><![CDATA[<p>click <a href="/assets/Search.km.svg">here</a> for viewing <a href="/assets/Search.km.svg">the whole knowledge graph</a>.<br><a href="/assets/Search.km.svg"><img src="/assets/Search.km.svg" alt="TestSVG"></a></p>]]></content>
     
     <summary type="html">
     
-      &lt;p&gt;click &lt;a href=&quot;/assets/Search_170928.svg&quot;&gt;here&lt;/a&gt; for viewing the knowledge graph.&lt;/p&gt;
+      
+      
+        &lt;p&gt;click &lt;a href=&quot;/assets/Search.km.svg&quot;&gt;here&lt;/a&gt; for viewing &lt;a href=&quot;/assets/Search.km.svg&quot;&gt;the whole knowledge graph&lt;/a&gt;.&lt;br&gt;&lt;a href=&quot;/as
+      
     
     </summary>
     
+    
+      <category term="knowledge graph" scheme="https://ai-fundamental.github.io/tags/knowledge-graph/"/>
     
   </entry>
   
@@ -39,9 +44,9 @@
     <link href="https://ai-fundamental.github.io/2017/Homework%203%20on%20Search/"/>
     <id>https://ai-fundamental.github.io/2017/Homework 3 on Search/</id>
     <published>2017-09-16T08:00:00.000Z</published>
-    <updated>2017-10-10T06:34:48.977Z</updated>
+    <updated>2017-10-10T07:41:04.516Z</updated>
     
-    <content type="html"><![CDATA[<p>We provide a formal proof on the correctness of NegaScout, which cannot be found in other places of Web.</p><p>We also find that we can also perform the scout step even for the first child of a node. It means that the constraint on the “first action” (see Line 6 of the algorithm in the <a href="/assets/2015K8009929046_王荣庆_04.pdf">pdf</a>) is <strong>NOT</strong> necessary. It is only necessary when α=-inf.</p><p>Please check the following <a href="/assets/2015K8009929046_王荣庆_04.pdf">pdf</a>.<br>(Thanks to Rongqing Wang.)</p>]]></content>
+    <content type="html"><![CDATA[<p>We provide a formal proof on the correctness of NegaScout, which cannot be found in other places of Web.</p><p>We also find that we can also perform the scout step even for the first child of a node. It means that the constraint on the “first action” (see Line 6 of the algorithm in the <a href="/assets/2015K8009929046_王荣庆_04.pdf">pdf</a>) is <strong>NOT</strong> necessary. It is only necessary when $\alpha = -\infty $.</p><p>Please check the following <a href="/assets/2015K8009929046_王荣庆_04.pdf">pdf</a>.<br>(Thanks to Rongqing Wang.)</p>]]></content>
     
     <summary type="html">
     
@@ -54,6 +59,8 @@
     </summary>
     
     
+      <category term="homework" scheme="https://ai-fundamental.github.io/tags/homework/"/>
+    
   </entry>
   
   <entry>
@@ -61,19 +68,23 @@
     <link href="https://ai-fundamental.github.io/2017/Homework%202%20on%20Search/"/>
     <id>https://ai-fundamental.github.io/2017/Homework 2 on Search/</id>
     <published>2017-09-13T08:00:00.000Z</published>
-    <updated>2017-10-10T06:02:57.176Z</updated>
+    <updated>2017-10-10T07:43:07.957Z</updated>
     
-    <content type="html"><![CDATA[<p>We provide a formal proof on the following properties<br>    If a heuristic is consistent, it must be admissible. We also give an example heuristic which is admissible, but not consistent.<br>    A<em> of graph search is <strong>NOT</strong> optimal with <em>*admissible heuristic</em></em>.</p><p>For the second property, the course book only says that “A<em> of graph search is optimal with <em>*consistent heuristic</em></em>”. Some students are wondering whether the conclusion that   </p><p>$$ A* of graph search is optimal with admissible heuristic $$</p><p>is true or not (see the <a href="https://cs.stackexchange.com/questions/23351/optimality-of-a?rq=1" target="_blank" rel="external">page</a>). Here, we show this conclusion is wrong. The key point is that the frontier set in graph search include both the visited and unvisited nodes.</p><p>Please check the following <a href="/assets/main.pdf">pdf</a>.<br>(Thanks to Xingcheng Ruan.)</p>]]></content>
+    <content type="html"><![CDATA[<p>We provide a formal proof on the following properties</p><ul><li>If a heuristic is consistent, it must be admissible. We also give an example heuristic which is admissible, but not consistent.</li><li>A<em> of graph search is <strong>NOT</strong> optimal with <em>*admissible heuristic</em></em>.</li></ul><p>For the second property, the course book only says that “A<em> of graph search is optimal with <em>*consistent heuristic</em></em>”. Some students are wondering whether the conclusion that   </p><p><strong> A* of graph search is optimal with admissible heuristic </strong></p><p>is true or not (see the <a href="https://cs.stackexchange.com/questions/23351/optimality-of-a?rq=1" target="_blank" rel="external">page</a>). Here, we show this conclusion is wrong. The key point is that the frontier set in graph search include both the visited and unvisited nodes.</p><p>Please check the following <a href="/assets/main.pdf">pdf</a>.<br>(Thanks to Xingcheng Ruan.)</p>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;p&gt;We provide a formal proof on the following properties&lt;br&gt;    If a heuristic is consistent, it must be admissible. We also give an exampl
+        &lt;p&gt;We provide a formal proof on the following properties&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;If a heuristic is consistent, it must be admissible. We also give an e
       
     
     </summary>
     
+    
+      <category term="homework" scheme="https://ai-fundamental.github.io/tags/homework/"/>
     
   </entry>
   
@@ -82,20 +93,24 @@
     <link href="https://ai-fundamental.github.io/2017/Homework%201%20on%20Search/"/>
     <id>https://ai-fundamental.github.io/2017/Homework 1 on Search/</id>
     <published>2017-09-09T08:00:00.000Z</published>
-    <updated>2017-10-10T05:47:33.564Z</updated>
+    <updated>2017-10-10T07:37:52.397Z</updated>
     
-    <content type="html"><![CDATA[<p>We provide a formal proof on<br>    The graph separation property in graph search<br>    The optimality on uniform-cost search</p><p>Please check the following <a href="/assets/2015K8009929017_朱钦霖_01.pdf">pdf</a>.<br>(Thanks to Qinlin Zhu.)</p>]]></content>
+    <content type="html"><![CDATA[<p>We provide a formal proof on</p><ul><li>The graph separation property in graph search</li><li>The optimality on uniform-cost search</li></ul><p>Please check the following <a href="/assets/2015K8009929017_朱钦霖_01.pdf">pdf</a>.<br>(Thanks to Qinlin Zhu.)</p>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;p&gt;We provide a formal proof on&lt;br&gt;    The graph separation property in graph search&lt;br&gt;    The optimality on uniform-cost search&lt;/p&gt;
-&lt;p&gt;P
+        &lt;p&gt;We provide a formal proof on&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The graph separation property in graph search&lt;/li&gt;
+&lt;li&gt;The optimality on uniform-cost search&lt;/l
       
     
     </summary>
     
+    
+      <category term="homework" scheme="https://ai-fundamental.github.io/tags/homework/"/>
     
   </entry>
   
@@ -104,7 +119,7 @@
     <link href="https://ai-fundamental.github.io/2017/Welcome%20to%20AI%20Fundamental%20course%20at%20UCAS/"/>
     <id>https://ai-fundamental.github.io/2017/Welcome to AI Fundamental course at UCAS/</id>
     <published>2017-09-01T08:00:00.000Z</published>
-    <updated>2017-10-10T05:41:16.953Z</updated>
+    <updated>2017-10-10T07:38:14.875Z</updated>
     
     <content type="html"><![CDATA[<p>Welcome to AI Fundamental course at <a href="http://www.ucas.ac.cn/" target="_blank" rel="external">UCAS</a></p><p>Thank you for your interest in our materials developed for AI Fundamental course (2017) at University of Chinese Academy of Sciences. At this web site, you will find the following:</p><ul><li>Some lecture slides (mainly for the third part of this course)</li><li>Detailed analysis on some key questions, which are not well addressed in the course book. These questions are usually used as the homework for the students in the course.</li></ul><a id="more"></a><p>The whole course includes the following three parts:<br>Part 1: Search<br>Part 2: Knowledge<br>Part 3: Learning</p><p>The materials for the first two parts are mainly based on <a href="http://aima.cs.berkeley.edu/" target="_blank" rel="external">AIMA</a> (CS 188 at Berkeley) and the <a href="https://www.coursera.org/learn/rengong-zhineng" target="_blank" rel="external">AI course at Taiwan University</a>. The materials for the last part are mainly developed by the instructor himself.</p>]]></content>
     

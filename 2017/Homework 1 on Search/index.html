@@ -5,7 +5,7 @@
   
 
 
-<html class="theme-next muse use-motion" lang="zh-CN">
+<html class="theme-next mist use-motion" lang="zh-Hans">
 <head>
   <meta charset="UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -13,6 +13,13 @@
 <meta name="theme-color" content="#222">
 
 
+
+  
+  
+    
+    
+  <script src="/lib/pace/pace.min.js?v=1.0.2"></script>
+  <link href="/lib/pace/pace-theme-minimal.min.css?v=1.0.2" rel="stylesheet">
 
 
 
@@ -78,7 +85,7 @@
 <link href="/css/main.css?v=5.1.2" rel="stylesheet" type="text/css" />
 
 
-  <meta name="keywords" content="Hexo, NexT" />
+  <meta name="keywords" content="homework," />
 
 
 
@@ -96,17 +103,18 @@
 
 
 
-<meta name="description" content="We provide a formal proof on    The graph separation property in graph search    The optimality on uniform-cost search Please check the following pdf.(Thanks to Qinlin Zhu.)">
+<meta name="description" content="We provide a formal proof on  The graph separation property in graph search The optimality on uniform-cost search  Please check the following pdf.(Thanks to Qinlin Zhu.)">
+<meta name="keywords" content="homework">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Homework 1 on Search">
 <meta property="og:url" content="https://ai-fundamental.github.io/2017/Homework 1 on Search/index.html">
 <meta property="og:site_name" content="AI-Fundamental">
-<meta property="og:description" content="We provide a formal proof on    The graph separation property in graph search    The optimality on uniform-cost search Please check the following pdf.(Thanks to Qinlin Zhu.)">
-<meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2017-10-10T05:47:33.564Z">
+<meta property="og:description" content="We provide a formal proof on  The graph separation property in graph search The optimality on uniform-cost search  Please check the following pdf.(Thanks to Qinlin Zhu.)">
+<meta property="og:locale" content="zh-Hans">
+<meta property="og:updated_time" content="2017-10-10T07:37:52.397Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Homework 1 on Search">
-<meta name="twitter:description" content="We provide a formal proof on    The graph separation property in graph search    The optimality on uniform-cost search Please check the following pdf.(Thanks to Qinlin Zhu.)">
+<meta name="twitter:description" content="We provide a formal proof on  The graph separation property in graph search The optimality on uniform-cost search  Please check the following pdf.(Thanks to Qinlin Zhu.)">
 
 
 
@@ -114,14 +122,14 @@
   var NexT = window.NexT || {};
   var CONFIG = {
     root: '/',
-    scheme: 'Muse',
-    sidebar: {"position":"left","display":"post","offset":12,"offset_float":12,"b2t":false,"scrollpercent":false,"onmobile":false},
+    scheme: 'Mist',
+    sidebar: {"position":"left","display":"post","offset":12,"offset_float":12,"b2t":false,"scrollpercent":true,"onmobile":true},
     fancybox: true,
     tabs: true,
     motion: true,
     duoshuo: {
       userId: '0',
-      author: 'Author'
+      author: '博主'
     },
     algolia: {
       applicationID: '',
@@ -159,7 +167,7 @@
 
 </head>
 
-<body itemscope itemtype="http://schema.org/WebPage" lang="zh-CN">
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
 
   
   
@@ -207,7 +215,17 @@
             
               <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
             
-            Home
+            首页
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-about">
+          <a href="http://mldm.ict.ac.cn/MLDM/luoping/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-user"></i> <br />
+            
+            关于
           </a>
         </li>
       
@@ -217,7 +235,7 @@
             
               <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
             
-            Archives
+            归档
           </a>
         </li>
       
@@ -227,7 +245,7 @@
             
               <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
             
-            Tags
+            标签
           </a>
         </li>
       
@@ -291,9 +309,9 @@
                 <i class="fa fa-calendar-o"></i>
               </span>
               
-                <span class="post-meta-item-text">Posted on</span>
+                <span class="post-meta-item-text">发表于</span>
               
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2017-09-09T16:00:00+08:00">
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-09-09T16:00:00+08:00">
                 2017-09-09
               </time>
             
@@ -306,6 +324,17 @@
           
 
           
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/2017/Homework 1 on Search/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count disqus-comment-count"
+                        data-disqus-identifier="2017/Homework 1 on Search/" itemprop="commentCount"></span>
+                </a>
+              </span>
             
           
 
@@ -331,7 +360,11 @@
       
 
       
-        <p>We provide a formal proof on<br>    The graph separation property in graph search<br>    The optimality on uniform-cost search</p>
+        <p>We provide a formal proof on</p>
+<ul>
+<li>The graph separation property in graph search</li>
+<li>The optimality on uniform-cost search</li>
+</ul>
 <p>Please check the following <a href="/assets/2015K8009929017_朱钦霖_01.pdf">pdf</a>.<br>(Thanks to Qinlin Zhu.)</p>
 
       
@@ -345,8 +378,32 @@
     
 
     
+      <div>
+        <ul class="post-copyright">
+  <li class="post-copyright-author">
+    <strong>本文作者：</strong>
+    Ping Luo
+  </li>
+  <li class="post-copyright-link">
+    <strong>本文链接：</strong>
+    <a href="https://ai-fundamental.github.io/2017/Homework 1 on Search/" title="Homework 1 on Search">https://ai-fundamental.github.io/2017/Homework 1 on Search/</a>
+  </li>
+  <li class="post-copyright-license">
+    <strong>版权声明： </strong>
+    本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/3.0/" rel="external nofollow" target="_blank">CC BY-NC-SA 3.0</a> 许可协议。转载请注明出处！
+  </li>
+</ul>
+
+      </div>
+    
 
     <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/homework/" rel="tag"># homework</a>
+          
+        </div>
       
 
       
@@ -399,6 +456,13 @@
           
   <div class="comments" id="comments">
     
+      <div id="disqus_thread">
+        <noscript>
+          Please enable JavaScript to view the
+          <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a>
+        </noscript>
+      </div>
+    
   </div>
 
 
@@ -415,6 +479,8 @@
   </div>
 
   <aside id="sidebar" class="sidebar">
+    
+      <div id="sidebar-dimmer"></div>
     
     <div class="sidebar-inner">
 
@@ -438,13 +504,22 @@
             <div class="site-state-item site-state-posts">
               <a href="/archives/">
                 <span class="site-state-item-count">5</span>
-                <span class="site-state-item-name">posts</span>
+                <span class="site-state-item-name">日志</span>
               </a>
             </div>
           
 
           
 
+          
+            
+            
+            <div class="site-state-item site-state-tags">
+              <a href="/tags/index.html">
+                <span class="site-state-item-count">2</span>
+                <span class="site-state-item-name">标签</span>
+              </a>
+            </div>
           
 
         </nav>
@@ -491,21 +566,22 @@
   
   &copy; 
   <span itemprop="copyrightYear">2017</span>
+  <span class="author" itemprop="copyrightHolder"> <a href="http://mldm.ict.ac.cn/MLDM/luoping/">Ping Luo </a> </span>
   <span class="with-love">
-    <i class="fa fa-heart"></i>
+    <i class="fa fa-star"></i>
   </span>
-  <span class="author" itemprop="copyrightHolder">Ping Luo</span>
+  <span class="deployer" > Deployed by student <a href="okcd00.github.io">Dian Chen</a></span>
 </div>
 
 
 <div class="powered-by">
-  Powered by <a class="theme-link" href="https://hexo.io">Hexo</a>
+  由 <a href="github.com/okcd00">okcd00</a> 部署 <a class="theme-link" href="https://hexo.io">Hexo</a> 强力驱动
 </div>
 
 <div class="theme-info">
-  Theme -
+  主题 -
   <a class="theme-link" href="https://github.com/iissnan/hexo-theme-next">
-    NexT.Muse
+    NexT.Mist
   </a>
 </div>
 
@@ -519,6 +595,8 @@
     
       <div class="back-to-top">
         <i class="fa fa-arrow-up"></i>
+        
+          <span id="scrollpercent"><span>0</span>%</span>
         
       </div>
     
@@ -603,6 +681,26 @@
 
   
 
+    
+      <script id="dsq-count-scr" src="https://okcd00.disqus.com/count.js" async></script>
+    
+
+    
+      <script type="text/javascript">
+        var disqus_config = function () {
+          this.page.url = 'https://ai-fundamental.github.io/2017/Homework 1 on Search/';
+          this.page.identifier = '2017/Homework 1 on Search/';
+          this.page.title = 'Homework 1 on Search';
+        };
+        var d = document, s = d.createElement('script');
+        s.src = 'https://okcd00.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', '' + +new Date());
+        (d.head || d.body).appendChild(s);
+      </script>
+    
+
+  
+
 
 
 
@@ -618,10 +716,6 @@
 
 
 
-  
-
-
-
 
 
 
@@ -634,12 +728,52 @@
   
 
   
+<script>
+(function(){
+    var bp = document.createElement('script');
+    var curProtocol = window.location.protocol.split(':')[0];
+    if (curProtocol === 'https') {
+        bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';        
+    }
+    else {
+        bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+    }
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(bp, s);
+})();
+</script>
+
 
   
 
   
+  
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({
+        tex2jax: {
+          inlineMath: [ ['$','$'], ["\\(","\\)"]  ],
+          processEscapes: true,
+          skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+        }
+      });
+    </script>
+
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax(), i;
+        for (i=0; i < all.length; i += 1) {
+          all[i].SourceElement().parentNode.className += ' has-jax';
+        }
+      });
+    </script>
+    <script type="text/javascript" src="//cdn.bootcss.com/mathjax/2.7.1/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
+  
+
 
   
+  <script type="text/javascript" src="/js/src/js.cookie.js?v=5.1.2"></script>
+  <script type="text/javascript" src="/js/src/scroll-cookie.js?v=5.1.2"></script>
+
 
   
 
