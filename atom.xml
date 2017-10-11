@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://ai-fundamental.github.io/"/>
-  <updated>2017-10-11T03:59:14.063Z</updated>
+  <updated>2017-10-11T05:23:49.696Z</updated>
   <id>https://ai-fundamental.github.io/</id>
   
   <author>
@@ -17,19 +17,22 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>The knowledge graph of machine learning course</title>
-    <link href="https://ai-fundamental.github.io/2017/The%20knowledge%20graph%20of%20machine%20learning%20course/"/>
-    <id>https://ai-fundamental.github.io/2017/The knowledge graph of machine learning course/</id>
+    <title>The knowledge graph of the third course part: Learning</title>
+    <link href="https://ai-fundamental.github.io/2017/The%20knowledge%20graph%20of%20the%20third%20course%20part%20Learning/"/>
+    <id>https://ai-fundamental.github.io/2017/The knowledge graph of the third course part Learning/</id>
     <published>2017-10-11T08:00:00.000Z</published>
-    <updated>2017-10-11T03:59:14.063Z</updated>
+    <updated>2017-10-11T05:23:49.696Z</updated>
     
-    <content type="html"><![CDATA[<p>click <a href="/assets/机器学习课程.svg">here</a> for viewing <a href="/assets/机器学习课程.svg">the whole knowledge graph</a>.<br><a href="/assets/机器学习课程.svg"><img src="/assets/机器学习课程.svg" alt="TestSVG"></a></p>]]></content>
+    <content type="html"><![CDATA[<p>To view the whole knowledge graph.</p><ul><li>click <a href="/assets/机器学习课程.svg">here</a> for Chinese version.</li><li>click <a href="/assets/Machine_Learning_Course.svg">here</a> for English version.</li></ul><p><a href="/assets/Machine_Learning_Course.svg"><img src="/assets/Machine_Learning_Course.svg" alt="TestSVG"></a></p>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;p&gt;click &lt;a href=&quot;/assets/机器学习课程.svg&quot;&gt;here&lt;/a&gt; for viewing &lt;a href=&quot;/assets/机器学习课程.svg&quot;&gt;the whole knowledge graph&lt;/a&gt;.&lt;br&gt;&lt;a href=&quot;/assets/机
+        &lt;p&gt;To view the whole knowledge graph.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;click &lt;a href=&quot;/assets/机器学习课程.svg&quot;&gt;here&lt;/a&gt; for Chinese version.&lt;/li&gt;
+&lt;li&gt;click &lt;a href=&quot;
       
     
     </summary>
