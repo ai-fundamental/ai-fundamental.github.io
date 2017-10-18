@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://ai-fundamental.github.io/"/>
-  <updated>2017-10-11T05:23:49.696Z</updated>
+  <updated>2017-10-18T05:36:27.907Z</updated>
   <id>https://ai-fundamental.github.io/</id>
   
   <author>
@@ -20,8 +20,8 @@
     <title>The knowledge graph of the third course part: Learning</title>
     <link href="https://ai-fundamental.github.io/2017/The%20knowledge%20graph%20of%20the%20third%20course%20part%20Learning/"/>
     <id>https://ai-fundamental.github.io/2017/The knowledge graph of the third course part Learning/</id>
-    <published>2017-10-11T08:00:00.000Z</published>
-    <updated>2017-10-11T05:23:49.696Z</updated>
+    <published>2017-10-18T08:00:00.000Z</published>
+    <updated>2017-10-18T05:36:27.907Z</updated>
     
     <content type="html"><![CDATA[<p>To view the whole knowledge graph.</p><ul><li>click <a href="/assets/机器学习课程.svg">here</a> for Chinese version.</li><li>click <a href="/assets/Machine_Learning_Course.svg">here</a> for English version.</li></ul><p><a href="/assets/Machine_Learning_Course.svg"><img src="/assets/Machine_Learning_Course.svg" alt="TestSVG"></a></p>]]></content>
     
@@ -39,6 +39,34 @@
     
     
       <category term="knowledge graph" scheme="https://ai-fundamental.github.io/tags/knowledge-graph/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Homework 1 on Knowledge</title>
+    <link href="https://ai-fundamental.github.io/2017/Homework%201%20on%20Knowledge/"/>
+    <id>https://ai-fundamental.github.io/2017/Homework 1 on Knowledge/</id>
+    <published>2017-10-14T08:00:00.000Z</published>
+    <updated>2017-10-18T05:36:09.169Z</updated>
+    
+    <content type="html"><![CDATA[<p>陆钟万先生编写的《面向计算机科学的数理逻辑》是数理逻辑方面的经典教材。<br>本次作业，利用课本讲授的包含11条推演规则的命题逻辑系统，以形式推演的方式证明了课本中的</p><ul><li>定理2.6.4</li><li>定理2.6.9</li></ul><p>详细的证明请见 <a href="/assets/2015K8009929046_王荣庆_06.pdf">pdf</a>.<br>(Thanks to Rongqing Wang.)</p><p>向陆钟万先生致敬！</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;陆钟万先生编写的《面向计算机科学的数理逻辑》是数理逻辑方面的经典教材。&lt;br&gt;本次作业，利用课本讲授的包含11条推演规则的命题逻辑系统，以形式推演的方式证明了课本中的&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;定理2.6.4&lt;/li&gt;
+&lt;li&gt;定理2.6.9&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;详
+      
+    
+    </summary>
+    
+    
+      <category term="homework" scheme="https://ai-fundamental.github.io/tags/homework/"/>
     
   </entry>
   
