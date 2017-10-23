@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://ai-fundamental.github.io/"/>
-  <updated>2017-10-23T05:35:23.099Z</updated>
+  <updated>2017-10-23T05:39:44.277Z</updated>
   <id>https://ai-fundamental.github.io/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>The knowledge graph of the third course part: Learning</title>
+    <link href="https://ai-fundamental.github.io/2017/The%20knowledge%20graph%20of%20the%20third%20course%20part%20Learning/"/>
+    <id>https://ai-fundamental.github.io/2017/The knowledge graph of the third course part Learning/</id>
+    <published>2017-10-24T08:00:00.000Z</published>
+    <updated>2017-10-23T05:39:44.277Z</updated>
+    
+    <content type="html"><![CDATA[<p>To view the whole knowledge graph.</p><ul><li>click <a href="/assets/机器学习课程.svg">here</a> for Chinese version.</li><li>click <a href="/assets/Machine_Learning_Course.svg">here</a> for English version.</li></ul><p><a href="/assets/Machine_Learning_Course.svg"><img src="/assets/Machine_Learning_Course.svg" alt="TestSVG"></a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;To view the whole knowledge graph.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;click &lt;a href=&quot;/assets/机器学习课程.svg&quot;&gt;here&lt;/a&gt; for Chinese version.&lt;/li&gt;
+&lt;li&gt;click &lt;a href=&quot;
+      
+    
+    </summary>
+    
+    
+      <category term="knowledge graph" scheme="https://ai-fundamental.github.io/tags/knowledge-graph/"/>
+    
+  </entry>
   
   <entry>
     <title>Homework 2 on Knowledge</title>
@@ -37,32 +63,6 @@
     
     
       <category term="homework" scheme="https://ai-fundamental.github.io/tags/homework/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>The knowledge graph of the third course part: Learning</title>
-    <link href="https://ai-fundamental.github.io/2017/The%20knowledge%20graph%20of%20the%20third%20course%20part%20Learning/"/>
-    <id>https://ai-fundamental.github.io/2017/The knowledge graph of the third course part Learning/</id>
-    <published>2017-10-18T08:00:00.000Z</published>
-    <updated>2017-10-18T05:36:27.907Z</updated>
-    
-    <content type="html"><![CDATA[<p>To view the whole knowledge graph.</p><ul><li>click <a href="/assets/机器学习课程.svg">here</a> for Chinese version.</li><li>click <a href="/assets/Machine_Learning_Course.svg">here</a> for English version.</li></ul><p><a href="/assets/Machine_Learning_Course.svg"><img src="/assets/Machine_Learning_Course.svg" alt="TestSVG"></a></p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;To view the whole knowledge graph.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;click &lt;a href=&quot;/assets/机器学习课程.svg&quot;&gt;here&lt;/a&gt; for Chinese version.&lt;/li&gt;
-&lt;li&gt;click &lt;a href=&quot;
-      
-    
-    </summary>
-    
-    
-      <category term="knowledge graph" scheme="https://ai-fundamental.github.io/tags/knowledge-graph/"/>
     
   </entry>
   
