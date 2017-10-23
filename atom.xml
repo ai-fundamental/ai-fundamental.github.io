@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://ai-fundamental.github.io/"/>
-  <updated>2017-10-18T05:36:27.907Z</updated>
+  <updated>2017-10-23T05:35:23.099Z</updated>
   <id>https://ai-fundamental.github.io/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Homework 2 on Knowledge</title>
+    <link href="https://ai-fundamental.github.io/2017/Homework%202%20on%20Knowledge/"/>
+    <id>https://ai-fundamental.github.io/2017/Homework 2 on Knowledge/</id>
+    <published>2017-10-23T08:00:00.000Z</published>
+    <updated>2017-10-23T05:35:23.099Z</updated>
+    
+    <content type="html"><![CDATA[<p>We give the detailed answer to Exercise 7.17 in the book of AIMA.</p><p><strong>7.17</strong> A propositional 2-CNF expression is a conjunction of clauses, each containing <em>exactly</em> 2 literals, e.g.,<br>$$(A \lor B) \land (\lnot A \lor C) \land (\lnot B \lor D) \land (\lnot C \lor G) \land (\lnot D \lor G)$$</p><p><strong>a</strong>. Prove using resolution that the above sentence entails G.<br><strong>b</strong>. Two clauses are <em>semantically distinct</em> if they are not logically equivalent. How many semantically distinct 2-CNF clauses can be constructed from n proposition symbols?<br><strong>c</strong>. Using your answer to (b), prove that propositional resolution always terminates in time polynomial in n given a 2-CNF sentence containing no more than n distinct symbols.<br><strong>d</strong>. Explain why your argument in (c) does not apply to 3-CNF. </p><p>详细的证明请见 <a href="/assets/2015K8009929049_冯吕_07.pdf">pdf</a>.<br>(Thanks to Lv Feng.)</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;We give the detailed answer to Exercise 7.17 in the book of AIMA.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;7.17&lt;/strong&gt; A propositional 2-CNF expression is a conj
+      
+    
+    </summary>
+    
+    
+      <category term="homework" scheme="https://ai-fundamental.github.io/tags/homework/"/>
+    
+  </entry>
   
   <entry>
     <title>The knowledge graph of the third course part: Learning</title>
