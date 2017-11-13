@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://ai-fundamental.github.io/"/>
-  <updated>2017-10-30T05:59:32.872Z</updated>
+  <updated>2017-11-13T03:28:30.705Z</updated>
   <id>https://ai-fundamental.github.io/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Homework 3 on Knowledge</title>
+    <link href="https://ai-fundamental.github.io/2017/Homework%203%20on%20Knowledge/"/>
+    <id>https://ai-fundamental.github.io/2017/Homework 3 on Knowledge/</id>
+    <published>2017-11-13T08:00:00.000Z</published>
+    <updated>2017-11-13T03:28:30.705Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="Foreword"><a href="#Foreword" class="headerlink" title="Foreword"></a>Foreword</h3><p>This assignment should be finished with <code>Prolog</code>.</p><h3 id="Question-I"><a href="#Question-I" class="headerlink" title="Question I"></a>Question I</h3><blockquote><p>Given a set, list all its elements.<br>给出一个集合，列出其所有元素     </p></blockquote><figure class="highlight prolog"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line"><span class="comment">/* using MS Windows GUN prolog（gprolog）</span></div><div class="line"><span class="comment">query ：mymember(X,[1,2,3,4,5]). */</span></div><div class="line"></div><div class="line">mymember(<span class="symbol">X</span>,[<span class="symbol">_</span>|<span class="symbol">Y</span>]):- mymember(<span class="symbol">X</span>,<span class="symbol">Y</span>).</div><div class="line">mymember(<span class="symbol">X</span>,[<span class="symbol">X</span>|<span class="symbol">_</span>]).</div></pre></td></tr></table></figure><p>(Thanks to Shiyu Wu)</p><h3 id="Question-II"><a href="#Question-II" class="headerlink" title="Question II"></a>Question II</h3><blockquote><p>Given a set, list all its subsets.<br>给出一个集合，列出其所有子集     </p></blockquote><figure class="highlight prolog"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div></pre></td><td class="code"><pre><div class="line"><span class="comment">/* gprolog</span></div><div class="line"><span class="comment">Supposing the subset is in order.</span></div><div class="line"><span class="comment"></span></div><div class="line"><span class="comment">EXAMPLE:</span></div><div class="line"><span class="comment">| ?- subset([2,3],[1,2,3]).</span></div><div class="line"><span class="comment">true ? </span></div><div class="line"><span class="comment">yes </span></div><div class="line"><span class="comment">| ?- subset(X,[1,2,3]).</span></div><div class="line"><span class="comment">X = [1,2,3] ? ;</span></div><div class="line"><span class="comment">X = [1,2] ? ;</span></div><div class="line"><span class="comment">X = [1,3] ? ;</span></div><div class="line"><span class="comment">X = [1] ? ;</span></div><div class="line"><span class="comment">X = [2,3] ? ;</span></div><div class="line"><span class="comment">X = [2] ? ;</span></div><div class="line"><span class="comment">X = [3] ? ;</span></div><div class="line"><span class="comment">X = [] ? ;</span></div><div class="line"><span class="comment">*/</span></div><div class="line"></div><div class="line">subset([],[]).</div><div class="line">subset([<span class="symbol">A</span>|<span class="symbol">B</span>],[<span class="symbol">A</span>|<span class="symbol">C</span>]):- subset(<span class="symbol">B</span>,<span class="symbol">C</span>).</div><div class="line">subset(<span class="symbol">A</span>,[<span class="symbol">_</span>|<span class="symbol">B</span>]):- subset(<span class="symbol">A</span>,<span class="symbol">B</span>).</div></pre></td></tr></table></figure><p>(Thanks to Pan Shi)</p><h3 id="Related-Prolog-grammar-brief-explanation"><a href="#Related-Prolog-grammar-brief-explanation" class="headerlink" title="Related Prolog grammar: brief explanation"></a>Related Prolog grammar: brief explanation</h3><p><strong> 匿名变量 <code>_</code> </strong><br>prolog中，变量由大写字母或下划线 <code>_</code> 开头。<br>匿名变量 <code>_</code> 不会绑定为任何值，所以也不要求它所出现的位置的值必须相同。    </p><p><strong> 列表表达 <code>|</code> </strong><br>Prolog提供了把表头项目以及除去表头项目后剩下的列表分离的方法。<br>其次，Prolog强大的递归功能可以方便地访问除去表头项目后的列表。<br>如：<br><figure class="highlight json"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">[X | Y]</div></pre></td></tr></table></figure></p><p>使用此列表可以与任意的列表匹配，匹配成功后，X绑定为列表的第一个项目的值，<br>我们称之为表头（head）。而Y则绑定为剩下的列表，我们称之为表尾（tail)，举例说明：</p><figure class="highlight prolog"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div></pre></td><td class="code"><pre><div class="line">?- [<span class="symbol">H</span>|<span class="symbol">T</span>] = [apple, broccoli, refrigerator].</div><div class="line"><span class="symbol">H</span> = apple </div><div class="line"><span class="symbol">T</span> = [broccoli, refrigerator] </div><div class="line"></div><div class="line">?- [<span class="symbol">H</span>|<span class="symbol">T</span>] = [a, b, c, d, e].</div><div class="line"><span class="symbol">H</span> = a</div><div class="line"><span class="symbol">T</span> = [b, c, d, e] </div><div class="line"></div><div class="line">?- [<span class="symbol">H</span>|<span class="symbol">T</span>] = [apples, bananas].</div><div class="line"><span class="symbol">H</span> = apples </div><div class="line"><span class="symbol">T</span> = [bananas]</div><div class="line"></div><div class="line">?- [<span class="symbol">H</span>|<span class="symbol">T</span>] = [a, [b,c,d]]. <span class="comment">/* 这个例子中的第一层列表有两个项目。*/</span></div><div class="line"><span class="symbol">H</span> = a </div><div class="line"><span class="symbol">T</span> = [[b, c, d]] </div><div class="line"></div><div class="line">?- [<span class="symbol">H</span>|<span class="symbol">T</span>] = [apples]. <span class="comment">/*列表中只有一个项目的情况 */</span></div><div class="line"><span class="symbol">H</span> = apples</div><div class="line"><span class="symbol">T</span> = []</div></pre></td></tr></table></figure>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h3 id=&quot;Foreword&quot;&gt;&lt;a href=&quot;#Foreword&quot; class=&quot;headerlink&quot; title=&quot;Foreword&quot;&gt;&lt;/a&gt;Foreword&lt;/h3&gt;&lt;p&gt;This assignment should be finished with &lt;code&gt;
+      
+    
+    </summary>
+    
+    
+      <category term="homework" scheme="https://ai-fundamental.github.io/tags/homework/"/>
+    
+  </entry>
   
   <entry>
     <title>The knowledge graph of the third course part: Learning</title>
