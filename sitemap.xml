@@ -2,23 +2,37 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://ai-fundamental.github.io/2017/The%20knowledge%20graph%20of%20the%20second%20course%20part%20Knowledge/</loc>
-    
-    <lastmod>2017-11-13T03:38:11.277Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://ai-fundamental.github.io/2017/The%20knowledge%20graph%20of%20the%20first%20course%20part%20Search/</loc>
     
-    <lastmod>2017-11-13T03:38:05.645Z</lastmod>
+    <lastmod>2018-11-29T03:18:02.478Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://ai-fundamental.github.io/2017/The%20knowledge%20graph%20of%20the%20third%20course%20part%20Learning/</loc>
+    <loc>https://ai-fundamental.github.io/2018/The%20knowledge%20graph%20of%20the%20third%20course%20part%20Learning/</loc>
     
-    <lastmod>2017-11-13T03:37:32.154Z</lastmod>
+    <lastmod>2018-11-29T03:17:52.351Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://ai-fundamental.github.io/2017/The%20knowledge%20graph%20of%20the%20second%20course%20part%20Knowledge/</loc>
+    
+    <lastmod>2018-11-29T03:17:19.254Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://ai-fundamental.github.io/2018/Programming%201%20on%20Learning/</loc>
+    
+    <lastmod>2018-11-29T03:06:29.084Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://ai-fundamental.github.io/assets/CDTensorflow.html</loc>
+    
+    <lastmod>2018-11-29T02:53:46.143Z</lastmod>
     
   </url>
   

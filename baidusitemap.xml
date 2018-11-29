@@ -4,25 +4,8 @@
 
     
   <url>
-    <loc>https://ai-fundamental.github.io/2017/The%20knowledge%20graph%20of%20the%20second%20course%20part%20Knowledge/</loc>
-    <lastmod>2017-11-13T03:38:11.277Z</lastmod>
-    <data>
-        <display>
-        <title>The knowledge graph of the second course part: Knowledge</title>
-        <pubTime>2017-10-30T08:00:00.000Z</pubTime>
-        
-        <tag>knowledge graph</tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>https://ai-fundamental.github.io/2017/The%20knowledge%20graph%20of%20the%20first%20course%20part%20Search/</loc>
-    <lastmod>2017-11-13T03:38:05.645Z</lastmod>
+    <lastmod>2018-11-29T03:18:02.478Z</lastmod>
     <data>
         <display>
         <title>The knowledge graph of the first course part: Search</title>
@@ -38,12 +21,12 @@
 
     
   <url>
-    <loc>https://ai-fundamental.github.io/2017/The%20knowledge%20graph%20of%20the%20third%20course%20part%20Learning/</loc>
-    <lastmod>2017-11-13T03:37:32.154Z</lastmod>
+    <loc>https://ai-fundamental.github.io/2018/The%20knowledge%20graph%20of%20the%20third%20course%20part%20Learning/</loc>
+    <lastmod>2018-11-29T03:17:52.351Z</lastmod>
     <data>
         <display>
         <title>The knowledge graph of the third course part: Learning</title>
-        <pubTime>2017-12-31T08:00:00.000Z</pubTime>
+        <pubTime>2018-11-30T08:00:00.000Z</pubTime>
         
         <tag>knowledge graph</tag>
          
@@ -53,6 +36,41 @@
     </data>
     </url>
 
+    
+  <url>
+    <loc>https://ai-fundamental.github.io/2017/The%20knowledge%20graph%20of%20the%20second%20course%20part%20Knowledge/</loc>
+    <lastmod>2018-11-29T03:17:19.254Z</lastmod>
+    <data>
+        <display>
+        <title>The knowledge graph of the second course part: Knowledge</title>
+        <pubTime>2017-11-20T08:00:00.000Z</pubTime>
+        
+        <tag>knowledge graph</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://ai-fundamental.github.io/2018/Programming%201%20on%20Learning/</loc>
+    <lastmod>2018-11-29T03:06:29.084Z</lastmod>
+    <data>
+        <display>
+        <title>Programming 1 on Learning</title>
+        <pubTime>2018-10-19T08:00:00.000Z</pubTime>
+        
+        <tag>tensorflow</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
     
   <url>
     <loc>https://ai-fundamental.github.io/2017/Homework%203%20on%20Knowledge/</loc>
